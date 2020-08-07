@@ -1,6 +1,6 @@
 extends Node2D
 
-export(int) var nbZombie = 1
+export(int) var nbZombie = 5
 const baseZombie =  preload("res://Instanciable/Zombie.tscn")
 
 func _ready():
