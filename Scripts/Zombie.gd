@@ -1,7 +1,7 @@
 extends Sprite
 
-export(float) var minDistance = 100.0
-export(float) var maxDistance = 200.0
+export(float) var minDistance = 50.0
+export(float) var maxDistance = 150.0
 onready var velocity = 0.0
 var rng = RandomNumberGenerator.new()
 

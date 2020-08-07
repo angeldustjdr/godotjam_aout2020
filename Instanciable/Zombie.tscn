@@ -9,7 +9,7 @@ radius = 29.3859
 [node name="Zombie" type="Sprite"]
 texture = ExtResource( 1 )
 script = ExtResource( 2 )
-minDistance = 100.0
+maxDistance = 250.0
 
 [node name="KinematicBody2D" type="KinematicBody2D" parent="."]
 
